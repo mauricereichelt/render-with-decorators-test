@@ -1,6 +1,6 @@
 {
   "name": "@render-with/decorators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A render function that enables the use of decorators that elegantly wrap a component under test in providers.",
   "keywords": [
     "testing",
