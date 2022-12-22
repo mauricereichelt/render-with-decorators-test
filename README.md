@@ -66,7 +66,7 @@ Then, install some decorators for the libraries used in your project:
 npm install --save-dev @render-with/react-router @render-with/redux
 ```
 
-_Note: You can find an (incomplete) list of libraries with render decorators  [here](#providers)._
+_Note: You can find an (incomplete) list of libraries with render decorators  [here](#decorators)._
 
 Next, configure the decorators in your test-utils file (please refer to the individual decorator library's documentation for a complete setup guide):
 
@@ -185,7 +185,7 @@ _Note: This solution is partly inspired by [Storybook Decorators](https://storyb
 
 The order of the decorators determines how the rendered component will be wrapped with providers.
 
-![Providers](TODO)
+<!-- ![Providers](TODO) -->
 
 The decorator listed first (closest to the component) will be first to wrap a provider around the component. The decorator listed last will be responsible for the outermost provider.
 
@@ -207,7 +207,7 @@ will result in:
 </ThemeProvier>
 ```
 
-_Note: It works a bit like [Matrjoschka](https://de.wikipedia.org/wiki/Matrjoschka) puppets._
+_Note: It works a bit like [Matrjoschka](https://de.wikipedia.org/wiki/Matrjoschka) 🪆 puppets._
 
 ## Decorators
 
