@@ -19,6 +19,7 @@ render(<LoginForm />, withStore({ user: 'john.doe' }), withLocation('/login'), w
 - [The problem](#the-problem)
 - [The solution](#the-solution)
 - [Wrapping Order](#wrapping-order)
+- [Decorators](#decorators)
 - [API](#api)
 - [Issues](#issues)
 - [Contributors](#contributors)
@@ -242,7 +243,7 @@ A `Decorator` wraps an element in a provider and returns the resulting element.
 
 ## Issues
 
-Looking to contribute? Checkout this project's [Issues](https://github.com/cultivate-software/render-with-decorators/issues?q=is%3Aissue+is%3Aopen) on GitHub.
+Looking to contribute? PRs are welcome. Checkout this project's [Issues](https://github.com/cultivate-software/render-with-decorators/issues?q=is%3Aissue+is%3Aopen) on GitHub for existing issues.
 
 ### 🐛 Bugs
 
