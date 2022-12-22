@@ -2,7 +2,7 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/cultivate-software/render-with-decorators/release.yml?branch=main)
 ![Code Coverage](docs/coverage-badge.svg)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/cultivate-software/render-with-decorators)
+![npm (scoped)](https://img.shields.io/npm/v/@render-with/decorators)
 ![npm](https://img.shields.io/npm/dw/@render-with/decorators)
 ![NPM](https://img.shields.io/npm/l/@render-with/decorators)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-bright%20green)
