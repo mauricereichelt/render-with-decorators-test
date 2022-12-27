@@ -13,3 +13,5 @@ export function render<
   ui: ReactElement,
   ...decorators: Decorator[],
 ): RenderResult<Q, Container, BaseElement>
+
+export function configureRender(...defaultDecorators: Decorator[]): typeof render

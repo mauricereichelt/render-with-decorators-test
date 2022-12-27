@@ -1,10 +1,10 @@
 import { within, screen } from '@testing-library/react'
-import { render } from './index'
+import { render, configureRender } from './index'
 
 const withNav = () => node => <nav>{node}</nav>
 const withList = () => node => <ul>{node}</ul>
 
-describe('decorate', () => {
+describe('render', () => {
   it('renders component without decorators', () => {
     render(<li>Item</li>)
     expect(screen.getByRole('listitem')).toBeInTheDocument()
@@ -27,6 +27,16 @@ describe('decorate', () => {
     const { rerender } = render(<li>Item</li>, withList())
     rerender(<li>Item</li>)
     const list = screen.getByRole('list')
+    expect(within(list).getByRole('listitem')).toBeInTheDocument()
+  })
+})
+
+describe('configureRender', () => {
+  it('creates render function with default decorators', () => {
+    const render = configureRender(withList()) // eslint-disable-line testing-library/render-result-naming-convention
+    render(<li>Item</li>, withNav())
+    const nav = screen.getByRole('navigation')
+    const list = within(nav).getByRole('list')
     expect(within(list).getByRole('listitem')).toBeInTheDocument()
   })
 })

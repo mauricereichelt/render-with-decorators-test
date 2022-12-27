@@ -6,3 +6,6 @@ export const render = (node, ...decorators) => {
   const { rerender, ...otherProps } = rtlRender(decorate(node, ...decorators))
   return { ...otherProps, rerender: node => rerender(decorate(node, ...decorators)) }
 }
+
+export const configureRender = (...defaultDecorators) => (node, ...decorators) =>
+  render(node, ...defaultDecorators, ...decorators)

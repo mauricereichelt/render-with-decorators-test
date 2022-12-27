@@ -51,7 +51,7 @@ and supports the following `node` versions:
 
 ## Setup
 
-In your test-utils file, re-export the render function that supports decorators and the Redux decorators:
+In your test-utils file, re-export the render function that supports decorators:
 
 ```javascript
 // test-utils.js
@@ -88,6 +88,7 @@ it('shows home page when logged in already', async () => {
 })
 ```
 
+_Note: With `configureRender` it is possible to create a custom `render` function with default decorators that will be applied in all tests without having to explicitly mention the default decorators._ 
 
 ## The problem
 
@@ -228,6 +229,12 @@ function render(ui: ReactElement, ...decorators: Decorator[]): RenderResult
 ```
 
 Wraps the element (usually the component under test) in providers using the given list of decorators and renders the final result. Providing no decorators will simply render the element. 
+
+```
+function configureRender(...defaultDecorators: Decorator[]): typeof render
+```
+
+Creates a `render` function that wraps the component under test in providers using the given list of default decorators and (if applicable) in providers using the list of decorators passed to the created `render` itself.
 
 ```
 function decorate(ui: ReactElement, ...decorators: Decorator[]): ReactElement
