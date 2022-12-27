@@ -216,8 +216,8 @@ Here's an (incomplete) list of libraries that provide decorators for some known 
 - [`@render-with/react-router`](https://www.npmjs.com/package/@render-with/react-router)
 - [`@render-with/react-intl`](https://www.npmjs.com/package/@render-with/react-intl)
 - [`@render-with/redux`](https://www.npmjs.com/package/@render-with/redux)
-- `@render-with/material-ui` (coming soon)
-- `@render-with/backstage` (coming soon)
+- [`@render-with/material-ui`](https://www.npmjs.com/package/@render-with/material-ui)
+- [`@render-with/backstage`](https://www.npmjs.com/package/@render-with/backstage)
 
 ## API
 
