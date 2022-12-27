@@ -12,7 +12,8 @@
     "integration",
     "functional",
     "decorator",
-    "wrapper"
+    "wrapper",
+    "provider"
   ],
   "author": "cultivate GmbH (https://cultivate.software)",
   "license": "MIT",
