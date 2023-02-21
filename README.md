@@ -22,7 +22,7 @@ render(<LoginForm />, withStore({ user: 'john.doe' }), withLocation('/login'), w
 - [Decorators](#decorators)
 - [API](#api)
 - [Issues](#issues)
-- [Changelog](#change-log)
+- [Changelog](#changelog)
 - [Contributors](#contributors)
 - [LICENSE](#license)
 
@@ -277,7 +277,7 @@ For questions related to using the library, file an issue on GitHub.
 
 [See Questions](https://github.com/cultivate-software/render-with-decorators/issues?q=is%3Aissue+label%3Aquestion+sort%3Areactions-%2B1-desc)
 
-## Change Log
+## Changelog
 
 Every release is documented on the GitHub [Releases](https://github.com/cultivate-software/render-with-decorators/releases) page.
 
