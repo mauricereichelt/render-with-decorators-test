@@ -5,6 +5,7 @@
 ![npm (scoped)](https://img.shields.io/npm/v/@render-with/decorators)
 ![NPM](https://img.shields.io/npm/l/@render-with/decorators)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-bright%20green)
+[![All Contributors](https://img.shields.io/github/all-contributors/cultivate-software/render-with-decorators?color=orange)](#contributors)
 
 A render function that enables the use of decorators which elegantly wrap a component under test in providers:
 
@@ -283,26 +284,28 @@ Every release is documented on the GitHub [Releases](https://github.com/cultivat
 
 ## Contributors
 
+Thanks goes to these people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
-<tbody>
-<tr>
-  <td align="center">
-    <a href="https://cultivate.software">
-    <img alt="David Bieder" src="https://avatars.githubusercontent.com/u/9366720?v=4&s=100" />
-    <br />
-    <sub><b>David Bieder</b></sub>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://cultivate.software">
-    <img alt="cultivate(software)" src="https://avatars.githubusercontent.com/u/31018345?v=4&s=100" />
-    <br />
-    <sub><b>cultivate(software)</b></sub>
-    </a>
-  </td>
-</tr>
-</tbody>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/davidbieder"><img src="https://avatars.githubusercontent.com/u/9366720?v=4?s=100" width="100px;" alt="David Bieder"/><br /><sub><b>David Bieder</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://cultivate.software"><img src="https://avatars.githubusercontent.com/u/31018345?v=4?s=100" width="100px;" alt="cultivate(software)"/><br /><sub><b>cultivate(software)</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mauricereichelt"><img src="https://avatars.githubusercontent.com/u/31188606?v=4?s=100" width="100px;" alt="Maurice Reichelt"/><br /><sub><b>Maurice Reichelt</b></sub></a><br /></td>
+    </tr>
+  </tbody>
 </table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
+Contributions of any kind welcome!
 
 ## LICENSE
 
