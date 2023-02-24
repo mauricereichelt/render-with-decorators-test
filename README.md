@@ -295,6 +295,7 @@ Thanks goes to these people:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/davidbieder"><img src="https://avatars.githubusercontent.com/u/9366720?v=4?s=100" width="100px;" alt="David Bieder"/><br /><sub><b>David Bieder</b></sub></a><br /></td>
       <td align="center" valign="top" width="14.28%"><a href="https://cultivate.software"><img src="https://avatars.githubusercontent.com/u/31018345?v=4?s=100" width="100px;" alt="cultivate(software)"/><br /><sub><b>cultivate(software)</b></sub></a><br /></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mauricereichelt"><img src="https://avatars.githubusercontent.com/u/31188606?v=4?s=100" width="100px;" alt="Maurice Reichelt"/><br /><sub><b>Maurice Reichelt</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jeromeweiss"><img src="https://avatars.githubusercontent.com/u/59569084?v=4?s=100" width="100px;" alt="Jerome Weiß"/><br /><sub><b>Jerome Weiß</b></sub></a><br /><a href="#maintenance-jeromeweiss" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
