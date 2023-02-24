@@ -32,6 +32,16 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/31188606?v=4",
       "profile": "https://github.com/mauricereichelt",
       "contributions": []
+    },
+    {
+      "login": "jeromeweiss",
+      "name": "Jerome Weiß",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59569084?v=4",
+      "profile": "https://github.com/jeromeweiss",
+      "contributions": [
+        "maintenance"
+      ]
     }
-  ]
+  ],
+  "commitConvention": "angular"
 }
