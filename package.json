@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "all-contributors-cli": "6.23.1",
-    "constructs": "10.1.268",
+    "constructs": "10.1.276",
     "joi": "^17.7.0"
   },
   "devDependencies": {
