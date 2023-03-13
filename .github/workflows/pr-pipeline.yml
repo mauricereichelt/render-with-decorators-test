@@ -33,6 +33,6 @@ jobs:
         uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           target: minor
-          # PAT owner: davidbieder
-          # PAT scopes: Read access to metadata, Read and Write access to code, commit statuses, deployments, and pull requests
+          # PAT_TEST owner: jeromeweiss
+          # PAT_TEST scopes: Read access to metadata, Read and Write access to code, commit statuses, deployments, and pull requests
           github-token: ${{ secrets.DEPENDABOT_PAT_TEST }}
