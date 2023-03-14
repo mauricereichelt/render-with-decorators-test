@@ -9,3 +9,5 @@ export const render = (node, ...decorators) => {
 
 export const configureRender = (...defaultDecorators) => (node, ...decorators) =>
   render(node, ...defaultDecorators, ...decorators)
+
+export const mauriceWasHere = () => {}
